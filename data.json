@@ -1,0 +1,174 @@
+{
+  "users": [
+    {
+      "id": "usr_admin",
+      "name": "Lena Kowalski",
+      "email": "admin@corvid.io",
+      "passwordHash": "$2a$10$/76ySkmHxwDdVemQG6qbC.s3QQGolQsExnACFDsPv62MdQFcJEfdy",
+      "role": "admin"
+    },
+    {
+      "id": "usr_viewer",
+      "name": "Guest Viewer",
+      "email": "viewer@corvid.io",
+      "passwordHash": "$2a$10$5nMdBp17TJTKQy39YpOmBeFoFjAzzJ4k8VoTFOkgyByt6G6Sz7LMO",
+      "role": "viewer"
+    }
+  ],
+  "departments": [
+    {
+      "id": "dep_eng",
+      "name": "Engineering",
+      "code": "ENG",
+      "color": "#2F6F63"
+    },
+    {
+      "id": "dep_dsg",
+      "name": "Design",
+      "code": "DSG",
+      "color": "#6B5CA5"
+    },
+    {
+      "id": "dep_prd",
+      "name": "Product",
+      "code": "PRD",
+      "color": "#C98A3B"
+    },
+    {
+      "id": "dep_sls",
+      "name": "Sales",
+      "code": "SLS",
+      "color": "#B5482F"
+    },
+    {
+      "id": "dep_mkt",
+      "name": "Marketing",
+      "code": "MKT",
+      "color": "#3B6EA5"
+    },
+    {
+      "id": "dep_hr",
+      "name": "HR",
+      "code": "HR",
+      "color": "#A5527B"
+    },
+    {
+      "id": "dep_fin",
+      "name": "Finance",
+      "code": "FIN",
+      "color": "#6E7B3F"
+    }
+  ],
+  "employees": [
+    {
+      "id": "dougOT9n",
+      "code": "SLS-0003",
+      "name": "mark",
+      "email": "mark@gmail.com",
+      "departmentId": "dep_sls",
+      "role": "CSR",
+      "status": "Resigned",
+      "salary": 20000,
+      "joinDate": "2026-06-30",
+      "avatarUrl": null
+    },
+    {
+      "id": "eTUnKtFD",
+      "code": "ENG-0001",
+      "name": "Amara Chen",
+      "email": "amara.chen@corvid.io",
+      "departmentId": "dep_eng",
+      "role": "Senior Frontend Developer",
+      "status": "Active",
+      "salary": 128000,
+      "joinDate": "2022-03-14",
+      "avatarUrl": null
+    },
+    {
+      "id": "1u4paf39",
+      "code": "PRD-0001",
+      "name": "Diego Ferreira",
+      "email": "diego.f@corvid.io",
+      "departmentId": "dep_prd",
+      "role": "Product Manager",
+      "status": "On Leave",
+      "salary": 141000,
+      "joinDate": "2021-11-02",
+      "avatarUrl": null
+    },
+    {
+      "id": "dbeqjMTe",
+      "code": "DSG-0001",
+      "name": "Priya Natarajan",
+      "email": "priya.n@corvid.io",
+      "departmentId": "dep_dsg",
+      "role": "Product Designer",
+      "status": "On Leave",
+      "salary": 112000,
+      "joinDate": "2023-01-09",
+      "avatarUrl": null
+    },
+    {
+      "id": "UWIexYib",
+      "code": "SLS-0001",
+      "name": "Owen Blackwood",
+      "email": "owen.b@corvid.io",
+      "departmentId": "dep_sls",
+      "role": "Account Executive",
+      "status": "Active",
+      "salary": 98000,
+      "joinDate": "2020-06-23",
+      "avatarUrl": null
+    },
+    {
+      "id": "K6xkZ-fY",
+      "code": "HR-0001",
+      "name": "Lena Kowalski",
+      "email": "lena.k@corvid.io",
+      "departmentId": "dep_hr",
+      "role": "HR Business Partner",
+      "status": "Active",
+      "salary": 104000,
+      "joinDate": "2019-09-17",
+      "avatarUrl": null
+    },
+    {
+      "id": "2i6k55Gm",
+      "code": "ENG-0002",
+      "name": "Marcus Webb",
+      "email": "marcus.w@corvid.io",
+      "departmentId": "dep_eng",
+      "role": "Backend Developer",
+      "status": "Resigned",
+      "salary": 118000,
+      "joinDate": "2021-02-11",
+      "avatarUrl": null
+    }
+  ],
+  "activity": [
+    {
+      "id": "6ZLs90f4",
+      "action": "employee.update",
+      "message": "Updated Diego Ferreira's record.",
+      "byUser": "Lena Kowalski",
+      "timestamp": "2026-07-13T03:32:56.451Z"
+    },
+    {
+      "id": "m6vpVk8r",
+      "action": "employee.create",
+      "message": "Added mark (SLS-0003).",
+      "byUser": "Lena Kowalski",
+      "timestamp": "2026-07-13T03:32:48.998Z"
+    }
+  ],
+  "seq": 3,
+  "deptSeq": {
+    "dep_eng": 3,
+    "dep_dsg": 2,
+    "dep_prd": 2,
+    "dep_sls": 3,
+    "dep_mkt": 1,
+    "dep_hr": 2,
+    "dep_fin": 1
+  }
+}
